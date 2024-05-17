@@ -1,0 +1,113 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --wwwfigmacom-black: #000000;
+    --wwwfigmacom-nero: #ffffff;
+    --wwwfigmacom-pomegranate: #f24822;
+    --wwwfigmacom-nero-02percent: rgba(255, 255, 255, 0);
+    --wwwfigmacom-nero-898percent: rgba(255, 255, 255, 0.9);
+    --wwwfigmacom-dodger-blue: #1abcfe;
+    --wwwfigmacom-caribbean-green: #0acf83;
+    --wwwfigmacom-tropical-rain-forest: #ff7262;
+    --wwwfigmacom-pomegranate: #f24e1e;
+    --wwwfigmacom-chelsea-gem: #a259ff;
+    --wwwfigmacom-black-898percent: rgba(0, 0, 0, 0.9);
+    --wwwfigmacom-cornflower-blue: #4285f4;
+    --wwwfigmacom-chateau-green: #34a853;
+    --wwwfigmacom-selective-yellow: #fbbc05;
+    --wwwfigmacom-cinnabar: #ea4335;
+    --wwwfigmacom-mountain-meadow: #14ae5c;
+    --wwwfigmacom-mine-shaft: #2c2c2c;
+    --wwwfigmacom-japanese-laurel: #0d99ff;
+    --wwwfigmacom-lynch: #667799;
+    --wwwfigmacom-azure-radiance: #007be5;
+    --wwwfigmacom-tundora: #444444;
+    --wwwfigmacom-black-90percent: rgba(0, 0, 0, 0.9);
+  
+    /* Fonts */
+    --wwwfigmacom-inter-regular-11-font-family: Inter-Regular, sans-serif;
+    --wwwfigmacom-inter-regular-11-font-size: 11px;
+    --wwwfigmacom-inter-regular-11-line-height: normal;
+    --wwwfigmacom-inter-regular-11-font-weight: 400;
+    --wwwfigmacom-inter-regular-11-font-style: normal;
+    --wwwfigmacom-inter-italic-11-font-family: Inter-Italic, sans-serif;
+    --wwwfigmacom-inter-italic-11-font-size: 11px;
+    --wwwfigmacom-inter-italic-11-line-height: normal;
+    --wwwfigmacom-inter-italic-11-font-weight: 400;
+    --wwwfigmacom-inter-italic-11-font-style: italic;
+    --wwwfigmacom-inter-medium-11-font-family: Inter-Medium, sans-serif;
+    --wwwfigmacom-inter-medium-11-font-size: 11px;
+    --wwwfigmacom-inter-medium-11-line-height: normal;
+    --wwwfigmacom-inter-medium-11-font-weight: 500;
+    --wwwfigmacom-inter-medium-11-font-style: normal;
+    --wwwfigmacom-inter-medium-italic-11-font-family: Inter-MediumItalic,
+      sans-serif;
+    --wwwfigmacom-inter-medium-italic-11-font-size: 11px;
+    --wwwfigmacom-inter-medium-italic-11-line-height: normal;
+    --wwwfigmacom-inter-medium-italic-11-font-weight: 500;
+    --wwwfigmacom-inter-medium-italic-11-font-style: italic;
+    --wwwfigmacom-inter-semi-bold-11-font-family: Inter-SemiBold, sans-serif;
+    --wwwfigmacom-inter-semi-bold-11-font-size: 11px;
+    --wwwfigmacom-inter-semi-bold-11-line-height: normal;
+    --wwwfigmacom-inter-semi-bold-11-font-weight: 600;
+    --wwwfigmacom-inter-semi-bold-11-font-style: normal;
+    --wwwfigmacom-inter-semi-bold-italic-11-font-family: Inter-SemiBoldItalic,
+      sans-serif;
+    --wwwfigmacom-inter-semi-bold-italic-11-font-size: 11px;
+    --wwwfigmacom-inter-semi-bold-italic-11-line-height: normal;
+    --wwwfigmacom-inter-semi-bold-italic-11-font-weight: 600;
+    --wwwfigmacom-inter-semi-bold-italic-11-font-style: italic;
+    --wwwfigmacom-inter-medium-11-font-family: Inter-Medium, sans-serif;
+    --wwwfigmacom-inter-medium-11-font-size: 11px;
+    --wwwfigmacom-inter-medium-11-line-height: 16px;
+    --wwwfigmacom-inter-medium-11-font-weight: 500;
+    --wwwfigmacom-inter-medium-11-font-style: normal;
+    --wwwfigmacom-inter-bold-14-font-family: Inter-Bold, sans-serif;
+    --wwwfigmacom-inter-bold-14-font-size: 14px;
+    --wwwfigmacom-inter-bold-14-line-height: 16px;
+    --wwwfigmacom-inter-bold-14-font-weight: 700;
+    --wwwfigmacom-inter-bold-14-font-style: normal;
+    --wwwfigmacom-inter-regular-14-font-family: Inter-Regular, sans-serif;
+    --wwwfigmacom-inter-regular-14-font-size: 14px;
+    --wwwfigmacom-inter-regular-14-line-height: 16px;
+    --wwwfigmacom-inter-regular-14-font-weight: 400;
+    --wwwfigmacom-inter-regular-14-font-style: normal;
+    --wwwfigmacom-inter-regular-11-font-family: Inter-Regular, sans-serif;
+    --wwwfigmacom-inter-regular-11-font-size: 11px;
+    --wwwfigmacom-inter-regular-11-line-height: 32px;
+    --wwwfigmacom-inter-regular-11-font-weight: 400;
+    --wwwfigmacom-inter-regular-11-font-style: normal;
+    --wwwfigmacom-inter-regular-14-font-family: Inter-Regular, sans-serif;
+    --wwwfigmacom-inter-regular-14-font-size: 14px;
+    --wwwfigmacom-inter-regular-14-line-height: 24px;
+    --wwwfigmacom-inter-regular-14-font-weight: 400;
+    --wwwfigmacom-inter-regular-14-font-style: normal;
+    --wwwfigmacom-inter-regular-12-upper-font-family: Inter-Regular, sans-serif;
+    --wwwfigmacom-inter-regular-12-upper-font-size: 12px;
+    --wwwfigmacom-inter-regular-12-upper-line-height: 24px;
+    --wwwfigmacom-inter-regular-12-upper-font-weight: 400;
+    --wwwfigmacom-inter-regular-12-upper-font-style: normal;
+    --wwwfigmacom-inter-medium-11-font-family: Inter-Medium, sans-serif;
+    --wwwfigmacom-inter-medium-11-font-size: 11px;
+    --wwwfigmacom-inter-medium-11-line-height: 32px;
+    --wwwfigmacom-inter-medium-11-font-weight: 500;
+    --wwwfigmacom-inter-medium-11-font-style: normal;
+    --wwwfigmacom-inter-regular-11-font-family: Inter-Regular, sans-serif;
+    --wwwfigmacom-inter-regular-11-font-size: 11px;
+    --wwwfigmacom-inter-regular-11-line-height: 16px;
+    --wwwfigmacom-inter-regular-11-font-weight: 400;
+    --wwwfigmacom-inter-regular-11-font-style: normal;
+    --wwwfigmacom-inter-bold-11-font-family: Inter-Bold, sans-serif;
+    --wwwfigmacom-inter-bold-11-font-size: 11px;
+    --wwwfigmacom-inter-bold-11-line-height: 16px;
+    --wwwfigmacom-inter-bold-11-font-weight: 700;
+    --wwwfigmacom-inter-bold-11-font-style: normal;
+    --wwwfigmacom-inter-regular-11-font-family: Inter-Regular, sans-serif;
+    --wwwfigmacom-inter-regular-11-font-size: 11px;
+    --wwwfigmacom-inter-regular-11-line-height: 16px;
+    --wwwfigmacom-inter-regular-11-font-weight: 400;
+    --wwwfigmacom-inter-regular-11-font-style: normal;
+  
+    /* Effects */
+  }
+  
